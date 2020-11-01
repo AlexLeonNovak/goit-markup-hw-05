@@ -62,119 +62,200 @@
 
 <main class="content">
     <section class="section gallery">
-    <div class="container">
-        <h1 class="hidden">Gallery</h1>
-        <ul class="list flexbox categories-nav">
-            <li class="category-nav-item">
-                <button type="button" class="category-nav-btn">
-                    Все
-                </button>
-            </li>
-            <li class="category-nav-item">
-                <button type="button" class="category-nav-btn">
-                    Веб-сайты
-                </button>
-            </li>
-            <li class="category-nav-item">
-                <button type="button" class="category-nav-btn">
-                    Приложения
-                </button>
-            </li>
-            <li class="category-nav-item">
-                <button type="button" class="category-nav-btn">
-                    Дизайн
-                </button>
-            </li>
-            <li class="category-nav-item">
-                <button type="button" class="category-nav-btn">
-                    Маркетинг
-                </button>
-            </li>
-        </ul>
-        <ul class="list grid category-list">
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-1.jpg" alt="Category 1">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Технокряк</h2>
-                        <p class="card-category-name">Веб-сайт</p>
-                    </div>
-                </a>
-            </li>
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-2.jpg" alt="Category 2">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Постер New Orlean vs Golden  Star</h2>
-                        <p class="card-category-name">Дизайн</p>
-                    </div>
-                </a>
-            </li>
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-3.jpg" alt="Category 3">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Ресторан Seafood</h2>
-                        <p class="card-category-name">Приложения</p>
-                    </div>
-                </a>
-            </li>
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-4.jpg" alt="Category 4">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Проект Prime</h2>
-                        <p class="card-category-name">Маркетинг</p>
-                    </div>
-                </a>
-            </li>
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-5.jpg" alt="Category 5">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Проект Boxes</h2>
-                        <p class="card-category-name">Приложения</p>
-                    </div>
-                </a>
-            </li>
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-6.jpg" alt="Category 6">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Inspiration has no Borders</h2>
-                        <p class="card-category-name">Веб-сайт</p>
-                    </div>
-                </a>
-            </li>
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-7.jpg" alt="Category 7">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Издание Limited Edition</h2>
-                        <p class="card-category-name">Дизайн</p>
-                    </div>
-                </a>
-            </li>
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-8.jpg" alt="Category 8">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Проект LAB</h2>
-                        <p class="card-category-name">Маркетинг</p>
-                    </div>
-                </a>
-            </li>
-            <li class="grid-item category-card">
-                <a href="#" class="link">
-                    <img src="./images/category-9.jpg" alt="Category 9">
-                    <div class="category-card-content">
-                        <h2 class="card-title">Growing Business</h2>
-                        <p class="card-category-name">Приложения</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
+        <div class="container">
+            <h1 class="hidden">Gallery</h1>
+            <ul class="list flexbox categories-nav">
+                <li class="category-nav-item">
+                    <button type="button" class="category-nav-btn">
+                        Все
+                    </button>
+                </li>
+                <li class="category-nav-item">
+                    <button type="button" class="category-nav-btn">
+                        Веб-сайты
+                    </button>
+                </li>
+                <li class="category-nav-item">
+                    <button type="button" class="category-nav-btn">
+                        Приложения
+                    </button>
+                </li>
+                <li class="category-nav-item">
+                    <button type="button" class="category-nav-btn">
+                        Дизайн
+                    </button>
+                </li>
+                <li class="category-nav-item">
+                    <button type="button" class="category-nav-btn">
+                        Маркетинг
+                    </button>
+                </li>
+            </ul>
+            <ul class="list grid category-list">
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-1.jpg" alt="Category 1">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Технокряк</h2>
+                            <p class="card-category-name">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-2.jpg" alt="Category 2">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="card-category-name">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-3.jpg" alt="Category 3">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Ресторан Seafood</h2>
+                            <p class="card-category-name">Приложения</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-4.jpg" alt="Category 4">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Проект Prime</h2>
+                            <p class="card-category-name">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-5.jpg" alt="Category 5">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Проект Boxes</h2>
+                            <p class="card-category-name">Приложения</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-6.jpg" alt="Category 6">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Inspiration has no Borders</h2>
+                            <p class="card-category-name">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-7.jpg" alt="Category 7">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Издание Limited Edition</h2>
+                            <p class="card-category-name">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-8.jpg" alt="Category 8">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Проект LAB</h2>
+                            <p class="card-category-name">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="grid-item category-card">
+                    <a href="#" class="link">
+                        <div class="card-thumb">
+                            <img src="./images/category-9.jpg" alt="Category 9">
+                            <div class="overlay">
+                                <p class="category-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Ad beatae consectetur consequuntur, dolore illum ipsum iusto labore,
+                                    laboriosam magnam natus nulla numquam quae quisquam similique sint sunt tempore.
+                                    Eos, quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                    blanditiis deleniti ducimus eaque id illum in ipsum maiores quis quisquam.</p>
+                            </div>
+                        </div>
+                        <div class="category-card-content">
+                            <h2 class="card-title">Growing Business</h2>
+                            <p class="card-category-name">Приложения</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
 </main>
 
@@ -187,7 +268,8 @@
                 </a>
                 <address class="contacts-info" id="contacts">
                     <p class="contact-info-address">
-                        <a class="link" target="_blank" href="https://goo.gl/maps/kAQHQV87yM3aP56k6">г. Киев, пр-т Леси Украинки, 26</a></p>
+                        <a class="link" target="_blank" href="https://goo.gl/maps/kAQHQV87yM3aP56k6">г. Киев, пр-т Леси
+                            Украинки, 26</a></p>
                     <ul class="list contacts">
                         <li class="contacts-item">
                             <a class="link contacts-item-link"
@@ -250,5 +332,6 @@
         </ul>
     </div>
 </footer>
+<script src="./js/modal.js"></script>
 </body>
 </html>
