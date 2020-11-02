@@ -407,12 +407,14 @@ h3 {
 
     padding: 63px 24px;
 
+    opacity: 0;
     transform: translateY(100%);
     transition: transform 250ms var(--cubic);
 }
 .category-card:hover .overlay,
 .category-card:focus .overlay {
     transform: translateY(0);
+    opacity: 1;
 }
 .category-card-description {
     width: 100%;
